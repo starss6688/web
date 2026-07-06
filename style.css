@@ -1,0 +1,43 @@
+h1{
+ height: 50px;
+width: 250px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav{
+    height: 50px;
+    margin-left: 40%;
+    position: flex;
+    margin-top: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.navlist li{
+    margin-top: 8px;
+    float: left;
+    height: 100px;
+    line-height: 40px;
+    text-align: center;
+    width: 200px;
+}
+.navlist a{
+    color: #000;
+    display: block;
+    height:auto;
+    width: auto;
+}
+.navlist{
+    width: 1200px;
+}
+.navlist a:hover{
+    background: #33da05;
+   
+}
+.m1{
+    background:linear-gradient(#0af157,#06ddec14);
+    width: 100%;
+    height: 5%;
+}
